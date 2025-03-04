@@ -127,7 +127,24 @@ public class HelloWorld {
         System.out.println(object1.fullName()); // Dennis Olsen
         System.out.println(object2.fullName()); // Elnaz Azizi
 
+
+        System.out.println("1. Addition");
+        System.out.println("2. Subtraction");
+        System.out.println("3. Multiplication");
     }
+
+    // Write a method to print or display the menu
+    public static void printMenu(){
+        System.out.println("Welcome to my calculator app");
+        System.out.println("1. Addition");
+        System.out.println("2. Subtraction");
+        System.out.println("3. Multiplication");
+        System.out.println("----------------");
+    }
+    public static double fahrenhietToCelsius(double fahrenhiet){
+        return (fahrenhiet - 32) * 5 / 9;
+    }
+
 
     // Reformat the code: Ctrl + Alt + L
 }
