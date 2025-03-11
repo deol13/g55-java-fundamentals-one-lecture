@@ -1,4 +1,4 @@
-package se.lexicon;
+package se.lexicon.part1;
 
 public class Calculator {
     public static int addition(int num1, int num2){
